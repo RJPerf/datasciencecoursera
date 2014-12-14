@@ -1,0 +1,238 @@
+install.packages(c("JGR","Deducer","DeducerExtras"))
+Sys.setenv(NOAWT=1)#
+library(JGR)#
+Sys.unsetenv("NOAWT")#
+JGR()
+#install.packages("foreign")#
+#install.packages("xlsx")#
+#install.packages("dplyr")#
+#install.packages("reshape2")#
+#install.packages("ggplot2")#
+#install.packages("GGally")#
+#install.packages("vcd")
+#install.packages("foreign")
+library(foreign)#
+library(xlsx)#
+## Loading required package: rJava#
+## Loading required package: xlsxjars#
+library(dplyr)#
+library(reshape2)#
+require(ggplot2)#
+require(GGally)#
+require(vcd)
+SessionInfo()
+sessionInfo()
+x <- c(1,2,4)
+q
+q <- c(x,x,8)
+x
+q
+x[2]
+mean(x)
+mean(q)
+sd(q)
+data()
+mean(Nile)
+oddcount <- function (x) {}
+oddcount <- function (x) {
+k <- 0
+for (n in x) {
+if (n %% 2 == 1) k <- k+1
+operator
+}
+return(k)
+}
+oddcount(c(1,3,5))
+oddcount <- function (x) {}#
+> oddcount <- function (x) {#
++    k <- 0 #
++    for (n in x) {#
++        if (n %% 2 == 1) k <- k+1
++    }#
++    return(k)#
++ }
+> oddcount <- function (x) {}#
+> oddcount <- function (x) {#
++    k <- 0 #
++    for (n in x) {#
++        if (n %% 2 == 1) k <- k+1
+}#
++    return(k)#
++ }
+install.packages("KernSmooth")
+Library(KernSmooth)
+packageDescription('KernSmooth')
+library
+Library (Kernsmooth)
+Library ("Kernsmooth")
+install.package("kernsmooth")
+Library(kernsmooth)
+getwd
+getwd()
+getwd()
+dir
+dir()
+x <- 4
+class(x)
+x <- c(4, "a", TRUE)
+class(c)
+class(c())
+c()
+c(1)
+print(c(1))
+class(x)
+x <- c(1,3, 5)
+y <- c(3, 2, 10)
+rbind(x, y)
+x <- list(2, "a", "b", TRUE)
+print x[[2]]
+x[[2]]
+x <- 1:4
+y <- 2:3
+z <- x+y
+z
+x+y
+x <- c(17, 14, 4, 5, 13, 12, 10)
+> x[4]
+y[x>4]
+x
+x <- c(17, 14, 4, 5, 13, 12, 10)
+x
+x[x > 10] <- 4
+x
+x <- c(17, 14, 4, 5, 13, 12, 10)
+x[x > 10] == 4
+x
+read.csv hw1_data
+data <- read.table("hw1_data")
+data <-read.table("hw1_data.csv")
+data
+data[1]
+x<- data[1]
+x
+print data[1]
+data[1,2]
+data.frame(1)
+data.frame(152)
+data[[1]]
+data
+data[1]
+data <-read.csv("hw1_data.csv")
+index
+Solar.R
+ndex
+normtemp
+mean
+mean(normtemp)
+data
+Ozone
+data <- read.csv(file, header = TRUE, sep = ",", quote = "\"",#
+         dec = ".", fill = TRUE, comment.char = "", ...)
+data <-read.csv(file, header = TRUE, sep = ",", quote = "\"",#
+         dec = ".", fill = TRUE, comment.char = "", ...)
+data <-read.csv(file, header = TRUE, sep = ",", quote = "\"",#
+         dec = ".", fill = TRUE, comment.char = "")
+data <-read.csv(hw1_data.csv, header = TRUE, sep = ",", quote = "\"",#
+         dec = ".", fill = TRUE, comment.char = "")
+data <-read.csv(file=hw1_data.csv, header = TRUE, sep = ",", quote = "\"",#
+         dec = ".", fill = TRUE, comment.char = "")
+data <-read.csv(file="hw1_data.csv", header = TRUE, sep = ",", quote = "\"",#
+         dec = ".", fill = TRUE, comment.char = "")
+data
+data <-read.csv(file="hw1_data.csv", na.strings = "NA", header = TRUE, sep = ",", quote = "\"",#
+         dec = ".", fill = TRUE, comment.char = "", )
+data <-read.csv(file="hw1_data.csv", row.names, col.names, as.is = !stringsAsFactors,#
+           na.strings = "NA", colClasses = NA, nrows = -1,#
+           skip = 0, header = TRUE, sep = ",", quote = "\"",#
+         dec = ".", fill = TRUE, comment.char = "", )
+data <-read.csv(file="hw1_data.csv", na.strings = "NA", colClasses = NA, nrows = -1,#
+           skip = 0, header = TRUE, sep = ",", quote = "\"",#
+         dec = ".", fill = TRUE, comment.char = "", )
+data <-read.csv(file="hw1_data.csv", header = TRUE, sep = ",", quote = "\"",#
+         dec = ".", fill = TRUE, comment.char = "")
+data <-read.csv(file="hw1_data.csv", header = TRUE, sep = ",", quote = "\"",#
+         dec = ".", fill = TRUE, comment.char = "")
+data <-read.csv(file="hw1_data.csv", header = TRUE, sep = ",", quote = "\"",#
+         dec = ".", fill = TRUE, comment.char = "", na.strings = "NA")
+data
+Ozone
+data <-read.csv(file="hw1_data.csv", header = TRUE, sep = ",", quote = "\"",#
+         dec = ".", fill = TRUE, comment.char = "", na.strings = ".")
+data
+Ozone
+data <-read.csv(file="hw1_data.csv", header = TRUE, sep = ",", quote = "\"",#
+         dec = ".", fill = TRUE, comment.char = "", na.strings = "NA")
+data <-read.csv(file="hw1_data.csv", header = TRUE, sep = ",", quote = "\"",#
+         dec = ".", fill = TRUE, comment.char = "", na.strings = "NA", stringsAsFactors=F)
+Ozone
+data
+dim(data)
+lapply(data, class)
+str(data)
+$Ozone
+print(Ozone)
+print
+Ozone[1]
+data.Ozone[1]
+data.Ozone
+data.Temp
+temp
+Temp
+Wind
+data
+data <-read.csv(file="hw1_data.csv", header = TRUE, sep = ",", quote = "\"",#
+         dec = ".", fill = TRUE, comment.char = "", na.strings = "NA", stringsAsFactors=F)
+install.packages("swirl")
+Library("Swirl")
+Library("swirl")
+library("swirl")
+ls()
+rm(list=ls())
+install_from_swirl("R Programming")
+swirl
+data
+data <-read.csv(file="hw1_data.csv", header = TRUE, sep = ",", quote = "\"",#
+         dec = ".", fill = TRUE, comment.char = "", na.strings = "NA", stringsAsFactors=F)
+data$Ozone
+data[]
+Data$Solar.R
+Data$Ozone
+data$Ozone
+data$Solar.R
+Ozone_Mean <- mean(dataset$Ozone, na.rm = TRUE)
+Ozone_Mean <- mean(data$Ozone, na.rm = TRUE)
+Ozone_Mean
+?matrix
+?colnames
+isTRUE(3)
+xor(!isTRUE(TRUE), 6 > -1)
+!isTRUE(TRUE)
+xor(!!TRUE, !!FALSE)
+xor(!isTRUE(TRUE), 6 > -1)
+identical(xor, 'xor')
+xor(identical(xor, 'xor'), 7 == 7.0)
+xor(!isTRUE(TRUE), 6 > -1)
+xor(4 >= 9, 8 != 8.0)
+?sapply
+?tapply
+names(data)
+sapply(data, mean)
+summary(data)
+str(data)
+?sample
+sample (data$Ozone, 10, replace=FALSE)
+?rbinom
+?rnorm
+?rpois
+install.pachages("RGtk2")
+install.packages("RGtk2")
+x <- "/users/ralphperfetto1/documents/Coursera/datasciencecoursera/specdata"
+x
+y <- "001" +".csv"
+y <- cbind("001", ".csv")
+y
+paste("001", ".csv")
+paste("001", ".csv", sep='')
+?list.files
+rbind
+?rbind
